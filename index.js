@@ -306,9 +306,9 @@ function platformaGoreCokGonderiYapanFenomen(dizi,platform){
   for (let i = 0; i < dizi.length; i++) {
     if (dizi[i].platform==platform&& 
         dizi[i].platform!="NA"&&
-        dizi[i].followers>makPost ) {
+        dizi[i].posts>makPost ) {
         star = dizi[i].profile;
-        makPost = dizi[i].followers;
+        makPost = dizi[i].posts;
       }
     
   }
